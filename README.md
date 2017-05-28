@@ -1,2 +1,2 @@
 # cmsc495project
-Web-based medication reference app in Java
+Web-based medication reference application written in Java
