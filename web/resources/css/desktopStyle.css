@@ -1,0 +1,77 @@
+/*
+ * Copyright (C) 2017 Rob Garcia at rgarcia92.student.umuc.edu
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+/* 
+    Created on : May 24, 2017, 10:23:35 PM
+    Author     : Rob Garcia at rgarcia92.student.umuc.edu
+*/
+
+html {
+    height: 100%;
+}
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+/* For the home page */
+.keypad {
+    height: 75vh;
+    min-height: 75vh;    
+    width: 100%;
+}
+.keys {
+    height: 25vh;
+    min-height: 25vh; 
+    vertical-align: middle;
+    width: 10%;
+}
+.button {
+    font-size: xx-large;
+    font-weight: bold;
+    height: 100%;
+    letter-spacing: 3px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+/* For the results page */
+.list {
+    border-collapse: collapse;
+    font-size: 5vw;
+    margin: 1em auto;
+    text-align: center;
+    width: 100%;
+}
+.list td {
+    border: 1px solid black;
+    padding: 0 1em;
+    text-align: left;
+}
+.backFooter {
+    background: #999;
+    bottom: 0;
+    height: 10%;
+    left: 0;
+    position:fixed;
+    text-align: center;
+    width: 100%;
+}
+.backButton {
+    font-size: xx-large;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+}
